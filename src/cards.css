@@ -4,7 +4,11 @@ html {
     color: #2F3442;
     height: 100%;
     background-color: #FFFFFF;
-    max-width: 710px;
+}
+
+body{
+  display: flex;
+  justify-content: center;
 }
 
 .icon {color: #BCD2DA;}
@@ -52,6 +56,7 @@ html {
     border: 1px solid #CAD0D2;
     border-radius: 4px;
     overflow: hidden;
+    max-width: 710px;
   }
   
     .cardGroup__card {
