@@ -58,7 +58,7 @@ body{
     overflow: hidden;
     max-width: 710px;
   }
-  
+ 
     .cardGroup__card {
       /* flex-grow, flex-shrink, flex-basis */
       flex-grow: 1;
@@ -78,4 +78,11 @@ body{
       flex-shrink: 1;
       flex-basis: 1px;
 
+    }
+
+    @media only screen and (max-width: 320px){
+      
+      .cardGroup {
+        display: block;
+      }
     }
